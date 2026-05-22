@@ -18,6 +18,23 @@
 
 ---
 
+
+## 🛠️ Installation & Architecture Setup
+
+This extension runs on a secure **Client-Server Architecture**. To protect the core logic and ensure smooth execution, you need to run the local backend server (`osint.py`) and load the client extension into Burp Suite.
+
+### Step 1: Run the Local Backend Server (`ocean.py`)
+The `ocean.py` file handles the core processing and data formatting locally on your system.
+
+1. Open your terminal or command prompt.
+2. Navigate to the directory containing `osint.py`.
+3. Install dependencies (if any) and run the script using Python 3:
+   ```bash
+   python osint.py
+
+
+   
+
 ## 🚀 How it Works
 
 Unlike traditional scanners that dump thousands of noisy payloads, Vultrex AI Scanner operates via a secure architecture:
