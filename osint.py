@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-RAPID_API_KEY = "decdb4d5dbmshecdab652817cb66p182e8ajsnbec187d0a8df"
+RAPID_API_KEY = "Your api key"
 RAPID_API_URL = "https://claude-3-7-sonnet.p.rapidapi.com/"
 
 @app.route("/analyze", methods=["POST"])
